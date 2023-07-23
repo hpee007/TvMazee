@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import HTTP from "../Config";
 import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Loader from "../utii/loader";
+import Loader from "../utii/Loader";
 import { Tvcard } from "../components";
 
 export default function Search() {

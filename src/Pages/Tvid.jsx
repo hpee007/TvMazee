@@ -6,7 +6,7 @@ import { Image, Carousel, Row, Col } from "react-bootstrap";
 import { PiTelevisionSimpleBold } from "react-icons/pi";
 import { FaBookOpen } from "react-icons/fa";
 import { ScrollContainer, TvcardB } from "../components";
-import Loader from "../utii/loader";
+import Loader from "../utii/Loader";
 
 export default function Tvid() {
   const { id } = useParams();
