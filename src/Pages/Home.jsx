@@ -1,7 +1,7 @@
 import { Container, Image, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Tvcard } from "../components";
-import Loader from "../utii/loader";
+import Loader from "../utii/Loader";
 import useFetchData from "../Hooks/fetchData";
 import { useState, useEffect } from "react";
 
